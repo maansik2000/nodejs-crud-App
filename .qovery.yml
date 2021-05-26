@@ -1,0 +1,15 @@
+---
+application:
+  name: "nodejs-crud-app"
+  project: "crud-nodejs-app-mansi"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "CRUDAPP"
+  version: "4.4"
+routers:
+- name: "main-nodejs-crud-app"
+  routes:
+  - application_name: "nodejs-crud-app"
+    paths:
+    - "/*"
